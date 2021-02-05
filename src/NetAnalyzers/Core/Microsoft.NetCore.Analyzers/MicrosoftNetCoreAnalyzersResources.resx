@@ -1519,4 +1519,16 @@
     <value>and all other platforms</value>
     <comment>This call site is reachable on: 'windows' 10.0.2000 and later, and all other platforms</comment>
   </data>
+  <data name="DoNotUseWaitAllWithSingleTaskDescription" xml:space="preserve">
+    <value>Using 'WaitAll' with a single task should be avoided in favor of directly awaiting that task or returning it as is.</value>
+  </data>
+  <data name="DoNotUseWaitAllWithSingleTaskTitle" xml:space="preserve">
+    <value>Do not use 'WaitAll' with a single task</value>
+  </data>
+  <data name="DoNotUseWhenAllWithSingleTaskDescription" xml:space="preserve">
+    <value>Using 'WhenAll' with a single task should be avoided in favor of directly awaiting that task or returning it as is.</value>
+  </data>
+  <data name="DoNotUseWhenAllWithSingleTaskTitle" xml:space="preserve">
+    <value>Do not use 'WhenAll' with a single task</value>
+  </data>
 </root>
